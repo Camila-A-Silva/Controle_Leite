@@ -1,0 +1,36 @@
+### Python ###
+# Ignorar arquivos de compilação
+*.pyc
+__pycache__/
+*.so
+
+# Ambientes virtuais (muito importante!)
+venv/
+env/
+.venv/
+build/
+dist/
+
+# Logs e Dados
+*.log
+*.sqlite
+*.db
+
+# Arquivos temporários do editor/IDE
+*~
+.DS_Store # macOS
+.vscode/ # VS Code settings
+.idea/ # PyCharm/IntelliJ
+
+# Arquivos gerados pelo sistema
+# Arquivos de configuração do banco de dados (que contêm senhas)
+config.py
+settings.py
+credentials.py
+*.ini
+*.cfg
+*.conf
+
+# Arquivos de backup
+# Arquivos de dados confidenciais
+/data/
